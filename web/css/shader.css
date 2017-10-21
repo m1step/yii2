@@ -1,0 +1,7 @@
+html {display: table; width: 100%; height: 100%;}
+body {display: table-cell; margin: 0; vertical-align: middle; text-align: center; font: 300 20px/1.4 Roboto, 'Open Sans', Helvetica, Arial, sans-serif; color: #fff; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.66); background: #4D4646 50% 50% no-repeat; background-size: cover;}
+
+.background-container {position: fixed; left: 0; right: 0; top: 0; bottom: 0;}
+noindex:-o-prefocus, .background-container {display: none;} /* Hide background in old Opera because of lags */
+
+.content {background: rgba(0, 0, 0, 0.5); position: relative; padding: 40px 0;}
